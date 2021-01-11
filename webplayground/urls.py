@@ -40,3 +40,8 @@ if settings.DEBUG:
     from django.conf.urls.static import static
     urlpatterns += static(settings.MEDIA_URL,
                           document_root=settings.MEDIA_ROOT)
+
+
+admin.site.site_header = "WebPlayGround"
+admin.site.index_title = "Panel de administrador"
+admin.site.site_title = "WebPlayGround"
